@@ -1,7 +1,7 @@
 def to_initials(name)
   array = [ ]
     name.split(" ").each do | word |
-       array << word[0]
+       array << word
           end
      array.flatten
 end
