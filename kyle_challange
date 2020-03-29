@@ -1,0 +1,18 @@
+def very_cool_name(words)
+  array = [ ]
+    words.each do |word|
+       if word.size > 6 && word.include?("e")
+        array << word
+        elsif word.size < 6 && word.include?("e")
+        array
+        elsif word.size < 6
+         array << word
+       end
+    end
+    array
+end
+
+#testing
+p very_cool_name(["taco", "excellent", "eppa"]) #=> ["taco", "excellent"]
+p very_cool_name(["mooooooooooo"]) #=> [ ]
+p very_cool_name(["eeeeeeeeeeeeeeeeeekkkkk"]) #=> ["eeeeeeeeeeeeeeeeeekkkkk"]
