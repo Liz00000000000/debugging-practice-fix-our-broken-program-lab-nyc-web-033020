@@ -3,10 +3,10 @@ def to_initials(name)
     name.split(" ").each do | word |
        array << word[0]
           end
-     array
+     array.join
 end
 
 
-pp to_initials("Kelvin Bridges")      # => "KB"
-pp to_initials("Michaela Yamamoto")   # => "MY"
-pp to_initials("Mary La Grange")      # => "MLG"
+puts to_initials("Kelvin Bridges")      # => "KB"
+puts to_initials("Michaela Yamamoto")   # => "MY"
+puts to_initials("Mary La Grange")      # => "MLG"
