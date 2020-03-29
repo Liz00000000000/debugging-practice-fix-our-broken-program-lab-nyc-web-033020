@@ -7,6 +7,6 @@ def to_initials(name)
 end
 
 
-p to_initials("Kelvin Bridges")      # => "KB"
-p to_initials("Michaela Yamamoto")   # => "MY"
-p to_initials("Mary La Grange")      # => "MLG"
+pp to_initials("Kelvin Bridges")      # => "KB"
+pp to_initials("Michaela Yamamoto")   # => "MY"
+pp to_initials("Mary La Grange")      # => "MLG"
