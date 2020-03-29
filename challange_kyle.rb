@@ -3,7 +3,7 @@ def to_initials(name)
     name.split(" ").each do | word |
        array << word[0]
           end
-     array
+     array.flatten
 end
 
 
