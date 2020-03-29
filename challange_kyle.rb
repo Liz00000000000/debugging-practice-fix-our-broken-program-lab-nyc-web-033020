@@ -1,6 +1,6 @@
 def to_initials(name)
   array = [ ]
-    name.split(" ").each do | word |
+    name.split(" ").map do | word |
        array << word[0]
           end
      array
