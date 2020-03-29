@@ -9,4 +9,4 @@ end
 
 p to_initials("Kelvin Bridges")      # => "KB"
 p to_initials("Michaela Yamamoto")   # => "MY"
-puts to_initials("Mary La Grange")      # => "MLG"
+p to_initials("Mary La Grange")      # => "MLG"
